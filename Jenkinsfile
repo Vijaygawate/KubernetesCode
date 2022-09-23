@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("vijaygawate/gitops:${env.BUILD_NUMBER}")
+       app = docker.build("vijaygawate/gitops")
     }
 
     stage('Test image') {
