@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Deployed using GitOps version1.9'
+    return 'Deployed using GitOps version1.2'
